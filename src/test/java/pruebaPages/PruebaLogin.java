@@ -15,7 +15,7 @@ public class PruebaLogin {
 		
 		LoginPage objlogin=new LoginPage(browser);
 		objlogin.ingresarEmail("fran12_1990@hotmail.com");
-		objlogin.ingresarClave("roverismo");
+		objlogin.ingresarClave("*****");
 		objlogin.clickBotonSesion();
 		
 	}

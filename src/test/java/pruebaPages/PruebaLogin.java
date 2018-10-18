@@ -14,7 +14,7 @@ public class PruebaLogin {
 		browser.get("https://www.facebook.com/");
 		
 		LoginPage objlogin=new LoginPage(browser);
-		objlogin.ingresarEmail("fran12_1990@hotmail.com");
+		objlogin.ingresarEmail("*******");
 		objlogin.ingresarClave("*****");
 		objlogin.clickBotonSesion();
 		
